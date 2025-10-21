@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Quiz Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app">
+        <div class="header">
+            <h1>Knowledge Quiz Hub</h1>
+            <p id="high-score">High Score: 0</p>
+        </div>
+        
+        <!-- Category Selection Screen -->
+        <div id="category-selection" class="category-screen">
+            <h2>Choose Your Quiz Category</h2>
+            <div class="categories-grid">
+                <button class="category-btn" data-category="science">🧪 Science</button>
+                <button class="category-btn" data-category="history">📚 History</button>
+                <button class="category-btn" data-category="geography">🌍 Geography</button>
+                <button class="category-btn" data-category="sports">⚽ Sports</button>
+                <button class="category-btn" data-category="entertainment">🎬 Entertainment</button>
+                <button class="category-btn" data-category="general">🧠 General Knowledge</button>
+            </div>
+        </div>
+        
+        <!-- Quiz Screen -->
+        <div id="quiz-container" class="quiz-screen" style="display: none;">
+            <div class="quiz-header">
+                <div class="quiz-info">
+                    <span id="current-category">Category</span>
+                    <button id="back-to-categories">← Back to Categories</button>
+                </div>
+                <div id="timer">15</div>
+            </div>
+            <div class="quiz">
+                <h2 id="question">Question goes here</h2>
+                <div id="answer-buttons"></div>
+                <button id="next-btn">Next</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
