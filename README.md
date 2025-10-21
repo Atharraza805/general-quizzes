@@ -160,16 +160,6 @@ Want to improve the quiz? Here are some ways to contribute:
 - Test on multiple browsers before submitting
 - Include clear, factual questions with unambiguous correct answers
 
-## 🎨 Screenshots
-
-### Category Selection
-![Category Selection Screen](https://via.placeholder.com/600x400/001e4d/ffffff?text=Category+Selection+Screen)
-
-### Quiz Interface
-![Quiz Interface](https://via.placeholder.com/600x400/003d82/ffffff?text=Quiz+Interface+with+Timer)
-
-### Results Display
-![Results Screen](https://via.placeholder.com/600x400/28a745/ffffff?text=Score+Results+Display)
 
 ## 🏅 Performance Stats
 
@@ -193,5 +183,6 @@ This project is open source and available under the [MIT License](https://openso
 ---
 
 **Made with ❤️ for knowledge enthusiasts everywhere!**
+
 
 *Test your knowledge, challenge your mind, and have fun learning!*
